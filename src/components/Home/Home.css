@@ -1,15 +1,91 @@
-.hero{
-    position: relative;
-width: 647px;
-height: 980px;
-left: 187px;
-top: 80px;
+.hero {
+  width: 1219px;
+  height: 1081px;
+  left: 0px;
+  top: 1px;
+
+  background: radial-gradient(
+      99.87% 413.14% at 0% 4.98%,
+      #443453 0%,
+      #232323 28.23%,
+      #252425 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
-.hero-color{
-    background-image: linear-gradient(#443453
-100%
-#232323
-100%
-#252425
-100%);
+.hero-color {
+  background-image: linear-gradient(#443453 100% #232323 100% #252425 100%);
+}
+.io {
+  position: absolute;
+  width: 647px;
+  height: 980px;
+  left: 187px;
+  top: 80px;
+}
+.lo {
+  width: 715px;
+  height: 979px;
+  left: 1012px;
+  top: 52px;
+  position: absolute;
+  background: #ffffff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+.oo {
+  width: 380px;
+  height: 53px;
+  left: calc(50% - 380px / 2 + 444px);
+  top: calc(50% - 53px / 2 - 85.5px);
+  height: 53px;
+  width: 380px;
+  left: 1214px;
+  top: 428px;
+  border-radius: 10px;
+
+  background: #ffffff;
+  border: 2px solid #666666;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.i {
+  width: 119px;
+  height: 119px;
+  left: 1329px;
+  top: 194px;
+
+  /* background: url(blue-logo.png); */
+}
+.text {
+  /* position: absolute; */
+  left: 65.62%;
+  right: 19.53%;
+  top: 83.06%;
+  bottom: 14.81%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #707070;
+}
+.t {
+  left: 60.68%;
+  right: 13.7%;
+  top: 32.59%;
+  bottom: 63.52%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 42px;
+
+  /* identical to box height, or 140% */
+
+  color: #473558;
 }
