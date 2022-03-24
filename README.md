@@ -1,11 +1,8 @@
-front end - go to frontend
+## Front End assesment for Tickets4Travel
 
-`npm install`
+#### How to run
 
-`npm run start`
+1. first got to directory then enter `npm install` or `npm i` command
 
-backend - go to backend
+2. After install all dependency enter `npm run start` command to successfully run.
 
-`npm install`
-
-`node index.js`
